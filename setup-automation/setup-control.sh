@@ -194,7 +194,7 @@ tee /tmp/setup.yml << EOF
         inputs:
           subscription: "{{ azure_subscription }}"
           password: "{{ azure_password }}"
-          client_id: "{{ azure_client_id }}"
+          client: "{{ azure_client_id }}"
           tenant: "{{ azure_tenant }}"
 
     - name: Ensure inventory exists
