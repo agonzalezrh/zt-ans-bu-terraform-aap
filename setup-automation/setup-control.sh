@@ -192,7 +192,7 @@ tee /tmp/setup.yml << EOF
         controller_password: ansible123!
         validate_certs: false
         inputs:
-          username: "{{ azure_suscription }}"
+          subscription_id: "{{ azure_suscription }}"
           password: "{{ azure_password }}"
           client: "{{ azure_client_id }}"
           tenant: "{{ azure_tenant }}"
