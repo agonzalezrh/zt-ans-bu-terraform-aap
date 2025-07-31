@@ -192,9 +192,9 @@ tee /tmp/setup.yml << EOF
         controller_password: ansible123!
         validate_certs: false
         inputs:
-          subscription_id: "{{ azure_suscription }}"
+          subscription_id: "{{ azure_subscription }}"
           password: "{{ azure_password }}"
-          client: "{{ azure_client_id }}"
+          client_id: "{{ azure_client_id }}"
           tenant: "{{ azure_tenant }}"
 
     - name: Ensure inventory exists
