@@ -193,7 +193,7 @@ tee /tmp/setup.yml << EOF
         validate_certs: false
         inputs:
           subscription: "{{ azure_subscription }}"
-          password: "{{ azure_password }}"
+          secret: "{{ azure_password }}"
           client: "{{ azure_client_id }}"
           tenant: "{{ azure_tenant }}"
 
